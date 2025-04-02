@@ -4,7 +4,7 @@ import os
 import textstat  # For readability and complexity score
 
 # Ensure the API key is securely set
-GOOGLE_API_KEY = os.getenv("AIzaSyAfR5zgLAuYaBeJUxnVjkKTII5uneNmKrk")  # Load API key from environment variable
+GOOGLE_API_KEY = os.getenv("API")  # Load API key from environment variable
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Load the Gemini Model
