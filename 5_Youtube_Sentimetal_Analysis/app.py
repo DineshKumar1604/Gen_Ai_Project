@@ -8,7 +8,7 @@ import re
 sentiment_analyzer = pipeline("sentiment-analysis")
 
 # YouTube API Key
-YOUTUBE_API_KEY = "AIzaSyBuNxsm0LnHF0OkbYgMSNHnwu8iVUVi5gc"
+YOUTUBE_API_KEY = "KEY"
 
 def extract_video_id(url):
     match = re.search(r"(?:v=|youtu\.be/)([a-zA-Z0-9_-]{11})", url)
