@@ -1,0 +1,5 @@
+gradio
+google-api-python-client
+transformers
+torch
+requests
